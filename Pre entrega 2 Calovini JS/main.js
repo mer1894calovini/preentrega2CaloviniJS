@@ -33,11 +33,14 @@ console.log(peogeot,citroen,fiat,chevrolet,renault);
 const vehiculos=["peogeot", "citroen", "fiat", "chevrolet", "renault"];
 console.log( vehiculos);
 
-const auto = vehiculos.find(Vehiculo => Vehiculo.nombre=== prompt("ingrese el nombre del vehiculo ") );
-alert(auto);
-/* let auto=prompt("ingrese el nombre del auto que quiere adquirir: ")
 
-auto= vehiculos.includes();
+
+let auto=prompt("ingrese el nombre del auto que quiere adquirir: ")
+
+const busqueda=vehiculos.find(Vehiculo => Vehiculo.nombre === auto);
+alert( "el auto que quiere adquirir se encuentra en nuestro de stock de vehiculos");
+
+/*auto= vehiculos.includes();
 console.log(auto);
 while (auto == true){
     let medioDePago= prompt("ingrese su forma de pago: efectivo/ financiado");
