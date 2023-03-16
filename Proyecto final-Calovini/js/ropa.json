@@ -1,0 +1,8 @@
+[
+    {"id": 1 ,"nombre":"calza","precio": 2500,"img": "img/calza.jpg"},
+    {"id": 2,"nombre": "campera","precio": 5000,"img":"img/campera.jpg"},
+    {"id": 3,"nombre":"gorra","precio": 1000,"img": "img/gorra.jpg"},
+    {"id": 4, "nombbre":"short","precio": 3000,"img": "img/short.jpg"},
+    {"id": 5,"nombre": "zapatillas", "precio": 7000,"img": "img/zapatillas.jpg"}
+    ]
+    
